@@ -2,6 +2,7 @@ package com.atguigu.nio;
 
 import java.nio.IntBuffer;
 
+//简单的Buffer操作
 public class BasicBuffer {
     public static void main(String[] args) {
         IntBuffer intBuffer = IntBuffer.allocate(5);

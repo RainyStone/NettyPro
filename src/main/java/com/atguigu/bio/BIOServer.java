@@ -7,6 +7,7 @@ import java.net.Socket;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+//BIO，阻塞型IO
 public class BIOServer {
     public static void main(String[] args) throws Exception{
         ExecutorService newCachedThreadPool = Executors.newCachedThreadPool();
