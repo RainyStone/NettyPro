@@ -7,7 +7,7 @@ import java.nio.charset.StandardCharsets;
 
 public class NIOFileChannel01 {
     public static void main(String[] args) throws Exception{
-        String str = "hello,菜鸡";
+        String str = "hello";
         FileOutputStream fileOutputStream = new FileOutputStream("src/main/java/com/atguigu/testfile/niofilechannel01.txt");
         FileChannel fileChannel = fileOutputStream.getChannel();
         ByteBuffer byteBuffer = ByteBuffer.allocate(1024);

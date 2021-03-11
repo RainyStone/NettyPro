@@ -1,1 +1,1 @@
-hello,菜鸡
+hello
